@@ -1,0 +1,18 @@
+.root {
+    --off-white: #F3F7F0;
+    --off-black: #1F1D20;
+    --primary: #7067CF;
+    --secondary: #F58549;
+}
+
+body {
+    font-family: "Alan Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--off-white);
+}
+
