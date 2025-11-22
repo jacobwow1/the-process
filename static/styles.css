@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -102,4 +103,69 @@ body {
 
 .signup:hover {
     opacity: 0.8;
+}
+
+
+.posts-container {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.post {
+    background-color: var(--off-white);
+    border: 1px solid var(--off-black);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.post-heading {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 24px;
+    color: var(--off-black);
+    display: inline-block;
+    margin: 0;
+    align-self: center;
+}
+
+.post-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.post-user {
+    font-size: 16px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.hobby-group {
+    font-size: 16px;
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-desc {
+    font-size: 16px;
+    color: var(--off-black);
+    margin: 0;
 }
